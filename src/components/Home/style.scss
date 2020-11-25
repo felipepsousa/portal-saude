@@ -1,0 +1,20 @@
+@import "../../style-padrao.scss";
+
+.container-home{
+    width: $largura-porcentagem;
+    max-width: $largura-maxima;
+    height: 500px;
+    margin: auto;
+    display: flex;
+}
+
+.container-home .categories-home {
+    width: 20%;
+}
+.container-home .home{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}

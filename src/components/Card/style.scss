@@ -1,0 +1,31 @@
+@import "../../style-padrao.scss";
+
+.container-card {
+    width: 45%;
+    height: 130px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    img {
+        height: 90px;
+    }
+}
+.informations-card {
+    padding: 6px;
+}
+.container-card .informations-card{
+    
+    .title-article {
+        font-weight: 700;
+    }
+
+    .author-article{
+        display: flex;
+        font-size: .8rem;
+        margin-top: 6px;
+        max-width: 200px;
+    }
+}

@@ -1,7 +1,6 @@
 @import "../../style-padrao.scss";
 
 header {
-  font-family: "Roboto";
 }
 
 header .mensagem {
@@ -14,8 +13,8 @@ header .mensagem {
   font-size: 0.8rem;
 }
 header .container {
-  width: 100%;
-  max-width: 980px;
+  width: $largura-porcentagem;
+  max-width: $largura-maxima;
   margin: auto;
 }
 header .container .section-top {
@@ -99,6 +98,7 @@ header .container .container-login section {
 header .container .section-bottom {
   height: 40px;
   display: flex;
+  margin-top: 28px;
   .categorias {
     background-color: $cor-primaria;
     width: 20%;

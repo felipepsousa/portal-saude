@@ -1,0 +1,15 @@
+@import "../../style-padrao.scss";
+
+.container-footer{
+    width: $largura-porcentagem;
+    max-width: $largura-maxima;
+    height: 200px;
+    margin: auto;
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
